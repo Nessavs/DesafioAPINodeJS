@@ -44,7 +44,7 @@ const init = async () => {
       value.total = total;
 
       try {
-        const response = await axios.post('https://hx61fb9pgb.execute-api.us-east-2.amazonaws.com/dev/pedidos', value);
+        const response = await axios.post("inacessível", value);
         console.log(response.data);
         return h.response({ message: 'Pedido criado com sucesso' }).code(201);
       } catch (error) {
@@ -62,7 +62,7 @@ const init = async () => {
 
       try {
         // API chamando o axios
-        const response = await axios.get(`https://hx61fb9pgb.execute-api.us-east-2.amazonaws.com/dev/pedidos/${id}`);
+        const response = await axios.get("inacessível");
         console.log(response.data);
         return h.response(response.data).code(200);
       } catch (error) {
