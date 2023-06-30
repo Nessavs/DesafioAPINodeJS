@@ -17,4 +17,5 @@ Utilizado:
 > AWS Lambda - funções
 > SLS Framework - SLS Deploy
 > Insomnia, get e put.
+> MongoDB Compass
 ```
