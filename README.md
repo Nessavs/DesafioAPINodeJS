@@ -12,3 +12,7 @@ Ao entrar na pasta lambda, também será necessário instalar:
 npm install
 npm i mongodb
 ```
+Utilizado:
+> AWS Lambda > funções
+> SLS Framework > SLS Deploy
+> Insomnia, get e put.
