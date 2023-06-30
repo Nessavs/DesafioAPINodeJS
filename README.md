@@ -18,4 +18,5 @@ Utilizado:
 > SLS Framework - SLS Deploy
 > Insomnia, get e put.
 > MongoDB Compass
+> WSL 2
 ```
