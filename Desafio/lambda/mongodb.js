@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
-const DB_USER = "inavessível";
-const DB_PASSWORD = encodeURIComponent("inavessível");
-const DB_HOST = "inavessível";
-const DB_NAME = "inavessível";
+const DB_USER = "inacessível";
+const DB_PASSWORD = encodeURIComponent("inacessível");
+const DB_HOST = "inacessível";
+const DB_NAME = "inacessível";
 
 const connectionString = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}?retryWrites=true&w=majority`;
 
