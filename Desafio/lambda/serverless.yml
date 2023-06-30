@@ -1,0 +1,29 @@
+service: desafio
+
+frameworkVersion: "3"
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+  stage: dev
+  region: us-east-2
+
+functions:
+  pedidos:
+    handler: handler.pedidos
+    #adicionando os endpoints#
+    events:
+      - http:
+          path: /pedidos
+          method: post
+
+  obterPedidos:
+    handler: handler.obterPedidos
+    events:
+      - http:
+          path: /pedidos/{id}
+          method: get
